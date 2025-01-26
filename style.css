@@ -1,11 +1,8 @@
 body{
-    background-image: url('images/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: whitesmoke;
+    font-family: ysabeau office, serif;
+    
 }
-
-
 
 .navbar a:hover{
     background-color:lightcyan;   
@@ -18,19 +15,51 @@ body{
 
 .navbar{
     position: relative;
-    background-color: transparent;
+    background-color: whitesmoke;
     display:flex;
     justify-content: center;
     justify-content: space-around;
+    font-size: 3rem;
 
 }
+.wrapper-index{
+    width: 100%;
+}
 
-main{
+.indeximg{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    margin: 0;
+    top: 0;
+}
+
+.welcome{
+    position: relative;
     text-align: center;
+    display: block;
+    font-size: 1rem;
+    color: cadetblue;
+    margin: 0;
 }
 
-p{
-    font-size: 40px;
-    color: cadetblue;
-    font-weight: 600;
+.column{
+    float: left;
+}
+
+.left{
+    width: 70%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.opening{
+    border-style: groove;
+    font-size:20px;
+    font-weight: bold;
+    
 }
