@@ -5,14 +5,32 @@ body{
     background-size: cover;
 }
 
-li{
-    display: inline;
-    padding: 10px;
-    background-color:darkgreen;
-    float:left;
+
+
+.navbar a:hover{
+    background-color:lightcyan;   
+    padding: 10px; 
 }
 
-a:hover{
-    background-color: aqua;   
-    padding: 10px; 
+.navbar a{
+    color:cadetblue;
+}
+
+.navbar{
+    position: relative;
+    background-color: transparent;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+main{
+    text-align: center;
+}
+
+p{
+    font-size: 40px;
+    color: cadetblue;
+    font-weight: 600;
 }
