@@ -59,7 +59,46 @@ body{
 
 .opening{
     border-style: groove;
-    font-size:20px;
-    font-weight: bold;
+    padding: 0px 20px;
     
+    font-size:20px;
+    font-weight: bold;  
 }
+
+.starterimg, .sandimg, .burgerimg, .dessertimg, .coffeeimg, .kidsimg{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+table, td{
+    border:black;
+   text-align: left;
+   margin-left: 20%;
+   margin-right: auto;
+   width: 70%;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+.aboutimg{
+    width: 100%;
+    position: relative;
+    margin: 0;
+    top: 10px;
+}
+
+.contactimg{
+    width: 100%;
+    position: relative;
+    margin: 0;
+    top: 20px;
+}
+
+
