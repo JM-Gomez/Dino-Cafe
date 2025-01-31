@@ -42,7 +42,7 @@ body{
     position: relative;
     text-align: center;
     display: block;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: cadetblue;
     margin: 0;
 }
@@ -52,9 +52,14 @@ body{
 }
 
 .left{
-    width: 70%;
+    width: 60%;
+    padding-right: 10%;
+    padding-left: 3%;
 }
 
+.row{
+    font-size: 1.3rem;
+}
 .row:after{
     content: "";
     display: table;
@@ -106,7 +111,7 @@ table, td{
 .contactinfo{
     text-align: center;
     font-size: 1.4rem;
-    width: 50%;
+    width: 51%;
     position: absolute;
     float: right;
     right: 30px;
