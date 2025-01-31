@@ -5,12 +5,14 @@ body{
 }
 
 .navbar a:hover{
-    background-color:lightcyan;   
-    padding: 10px; 
+    background-color:rgb(222, 227, 234);   
+    
 }
 
 .navbar a{
     color:cadetblue;
+    text-decoration:none;
+    
 }
 
 .navbar{
@@ -20,6 +22,8 @@ body{
     justify-content: center;
     justify-content: space-around;
     font-size: 3rem;
+    
+    
 
 }
 .wrapper-index{
@@ -31,7 +35,7 @@ body{
     position: relative;
     align-items: center;
     margin: 0;
-    top: 0;
+    top: 10px;
 }
 
 .welcome{
@@ -66,10 +70,12 @@ body{
 }
 
 .starterimg, .sandimg, .burgerimg, .dessertimg, .coffeeimg, .kidsimg{
-    width: 60%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;   
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 
@@ -83,10 +89,6 @@ table, td{
 
 
 
-ul{
-    list-style-type: none;
-}
-
 .aboutimg{
     width: 100%;
     position: relative;
@@ -99,6 +101,16 @@ ul{
     position: relative;
     margin: 0;
     top: 20px;
+}
+
+.contactinfo{
+    text-align: center;
+    font-size: 1.4rem;
+    width: 50%;
+    position: absolute;
+    float: right;
+    right: 30px;
+    top: 10%;
 }
 
 
