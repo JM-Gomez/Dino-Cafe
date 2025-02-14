@@ -74,19 +74,33 @@ body{
     font-weight: bold;  
 }
 
-.container, .container1{
+.container{
     max-width: 2000px;
     position: relative;
     margin: auto;
 }
 
-.menuSlides, .menuSlides1{
-    display: none;
-}
-img{
-    vertical-align: middle;
+/*.text {
+    text-align: center;
+    color: #1194b2;
+    font-size: 0.9rem;
+   
+    position:absolute;
+    float: left;
+    bottom: 15px;
+    left: 220px;
+    
+}*/
+
+.fade{
+    animation-name: fade;
+    animation-duration: 2.5s;
 }
 
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 
 .starterimg, .sandimg, .burgerimg, .dessertimg, .coffeeimg, .kidsimg{
     width: 50%;
@@ -129,9 +143,9 @@ table, td{
     font-size: 1.4rem;
     width: 51%;
     position: absolute;
-    float: right;
-    right: 30px;
-    top: 10%;
+    float:none;
+    right: 40px;
+    top: 100px;
 }
 
 
