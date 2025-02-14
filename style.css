@@ -74,6 +74,20 @@ body{
     font-weight: bold;  
 }
 
+.container, .container1{
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+}
+
+.menuSlides, .menuSlides1{
+    display: none;
+}
+img{
+    vertical-align: middle;
+}
+
+
 .starterimg, .sandimg, .burgerimg, .dessertimg, .coffeeimg, .kidsimg{
     width: 50%;
     display: block;
@@ -99,6 +113,7 @@ table, td{
     position: relative;
     margin: 0;
     top: 10px;
+    padding-bottom: 20px;
 }
 
 .contactimg{
@@ -106,6 +121,7 @@ table, td{
     position: relative;
     margin: 0;
     top: 20px;
+    padding-bottom: 40px;
 }
 
 .contactinfo{
