@@ -80,17 +80,26 @@ body{
     margin: auto;
 }
 
-/*.text {
-    text-align: center;
-    color: #1194b2;
-    font-size: 0.9rem;
-   
-    position:absolute;
-    float: left;
-    bottom: 15px;
-    left: 220px;
-    
-}*/
+.about-container{
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease; 
+}
+
+.active, .dot:hover {
+    background-color: cadetblue;
+}
 
 .fade{
     animation-name: fade;

@@ -20,9 +20,27 @@
             </navbar>
         </header>
 
-        <div>
-            <img src= "images/museum.jpg" alt="museum pic" class="aboutimg">
+        <div class="about-container">
+
+            <div class="aboutSlides fade">       
+                <img src= "images/museum.jpg" alt="museum pic" class="aboutimg">
+            </div>
+
+            <div class="aboutSlides fade">      
+                <img src= "images/skull.jpg" alt="museum pic" class="aboutimg">
+            </div>
+
+            <div class="aboutSlides fade">      
+                <img src= "images/trex.jpg" alt="museum pic" class="aboutimg">
+            </div>
+
         </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>   
 
         <p>A small, locally owned and operated business that opened over 20 years ago.
             We started serving just tea and biscuits to now being able to offer a
@@ -31,5 +49,7 @@
             locally sourced fresh ingredients but also sustainable cooking methods.
 
         </p>
+
+        <script src="about.js"></script>
 
     </body>

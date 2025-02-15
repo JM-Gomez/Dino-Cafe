@@ -3,7 +3,7 @@ var slideshowContainers = document.getElementsByClassName("container")
 for(let s = 0; s < slideshowContainers.length; s++) {
     var cycle = slideshowContainers[s].dataset.cycle;
     var slides = slideshowContainers[s].querySelectorAll('.mySlides');
-let slideIndex = 0;
+let slideIndex = 1;
 showSlides(slides, slideIndex, cycle);
 
 };
@@ -22,3 +22,5 @@ function showSlides(slides, slideIndex, cycle){
      }, cycle);
      
 };
+
+
