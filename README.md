@@ -45,6 +45,13 @@ Couple of mistakes straight away that were corrected for all other pages as well
 HTML lang attribute was not set and i had forgotten to include the title element.
 Also, charset did not require the / at the end of it so this was removed.
 
+* Menu page
+
+* About page
+
+* Contact page
+
+
 
 
 ## Acknowledgments
