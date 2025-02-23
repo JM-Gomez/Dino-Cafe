@@ -42,8 +42,9 @@ Every page was run through the official W3C validator and results are as follows
 
 * Home page
 Couple of mistakes straight away that were corrected for all other pages as well.
-HTML lang attribute was not set and i had forgotten to include the title element.
-Also, charset did not require the / at the end of it so this was removed.
+HTML lang attribute was not set and I had forgotten to include the title element.
+Charset did not require the / at the end of it so this was removed.
+Also, the start tag head error was due to the charset and style link being outside of the the head element. This was moved and no errors after that.
 
 * Menu page
 
