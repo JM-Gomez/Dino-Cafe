@@ -1,12 +1,12 @@
-var slideshowContainers = document.getElementsByClassName("container")
+var slideshowContainers = document.getElementsByClassName("container");
 
-for(let s = 0; s < slideshowContainers.length; s++) {
+for (let s = 0; s < slideshowContainers.length; s++) {
     var cycle = slideshowContainers[s].dataset.cycle;
     var slides = slideshowContainers[s].querySelectorAll('.mySlides');
 let slideIndex = 1;
 showSlides(slides, slideIndex, cycle);
 
-};
+}
 
 function showSlides(slides, slideIndex, cycle){
     
@@ -14,13 +14,13 @@ function showSlides(slides, slideIndex, cycle){
         slides[i].style.display = "none";
      }
      slideIndex++;
-     if (slideIndex > slides.length){slideIndex = 1};
+     if (slideIndex > slides.length){slideIndex = 1;}
      slides[slideIndex-1].style.display = "block";
 
      setTimeout(function(){
-        showSlides(slides, slideIndex, cycle)
+        showSlides(slides, slideIndex, cycle);
      }, cycle);
      
-};
+}
 
 

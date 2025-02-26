@@ -1,6 +1,6 @@
 body{
     background-color: whitesmoke;
-    font-family: ysabeau office, serif;
+    font-family: "ysabeau office", serif;
     
 }
 
@@ -36,6 +36,7 @@ body{
     align-items: center;
     margin: 0;
     top: 10px;
+    border-radius: 5%;
 }
 
 .welcome{
@@ -137,7 +138,8 @@ table, td{
     position: relative;
     margin: 0;
     top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    border-radius: 8%;
 }
 
 .about-text{
