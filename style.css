@@ -36,7 +36,7 @@ body{
     align-items: center;
     margin: 0;
     top: 10px;
-    border-radius: 5%;
+    border-radius: 30px;
 }
 
 .welcome{
@@ -112,13 +112,19 @@ body{
     to {opacity: 1}
   }
 
+.menuimg{
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
 .starterimg, .sandimg, .burgerimg, .dessertimg, .coffeeimg, .kidsimg{
     width: 50%;
     display: block;
     margin-left: auto;
-    margin-right: auto;   
-    padding-top: 50px;
+    margin-right: auto;
     padding-bottom: 10px;
+    border-radius: 40px;
 }
 
 
@@ -129,6 +135,7 @@ table, td{
    margin-right: auto;
    width: 70%;
    font-size: 1.2rem;
+   padding-bottom: 30px;
 }
 
 
@@ -139,7 +146,7 @@ table, td{
     margin: 0;
     top: 10px;
     padding-bottom: 10px;
-    border-radius: 8%;
+    border-radius: 40px;
 }
 
 .about-text{
@@ -168,4 +175,6 @@ table, td{
     top: 100px;
 }
 
-
+@media screen {
+    
+}
