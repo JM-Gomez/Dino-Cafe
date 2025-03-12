@@ -1,11 +1,12 @@
 body{
-    background-color: whitesmoke;
+    background-color: cornsilk;
     font-family: "ysabeau office", serif;
     
 }
 
 .navbar a:hover{
-    background-color:rgb(222, 227, 234);   
+    background-color: palegoldenrod;
+    border-radius: 10px;   
     
 }
 
@@ -17,7 +18,7 @@ body{
 
 .navbar{
     position: relative;
-    background-color: whitesmoke;
+    background-color: cornsilk;
     display:flex;
     justify-content: center;
     justify-content: space-around;
