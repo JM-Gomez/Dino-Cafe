@@ -92,6 +92,26 @@ No warnings with the code after that on either file.
 
 ![Alt text](images/validation/aboutjs-validation2.png)
 
+## `Accessibility`
+After running a lighthouse report, I identified some issues that needed to be fixed.
+
+Original report 
+
+![Alt text](images/validation/lighthouse-support1.png)
+
+example issue was that code was missing the following 
+
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
+after adding the below code to my html files:
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+I then ran another report and the performance increased
+
+![Alt text](images/validation/lighthouse-support2.png)
+
 
 
 
